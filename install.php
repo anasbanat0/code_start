@@ -11,6 +11,5 @@ $sql = "CREATE TABLE IF NOT EXISTS ideastable (
 );";
 
 $connection->exec($sql);
-
 echo "You are connected to the database successfully";
 ?>
