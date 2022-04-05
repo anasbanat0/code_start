@@ -9,7 +9,6 @@ $sql = "CREATE TABLE IF NOT EXISTS ideastable (
     text TEXT NOT NULL,
     PRIMARY KEY(id)
 );";
-
 $connection->exec($sql);
 echo "You are connected to the database successfully";
 ?>
