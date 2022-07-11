@@ -1,14 +1,12 @@
 <?php require_once 'config.php'; ?>
 <?php $page_title = 'Update an idea'; ?>
 <?php $page_heading = 'Idea Updating'; ?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <title><?php echo $page_title; ?></title>
 </head>
-
 <body>
   <h1> <?php echo $page_heading; ?> </h1>
   <p> <a href="index.php">Go back to the homepage</a> </p>
