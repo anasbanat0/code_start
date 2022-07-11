@@ -19,7 +19,6 @@
     <hr>
     <hr>
     <br>
-
     <?php $connection = new PDO($dsn, $dbuser, $dbpassword, $options); ?>
     <?php $sql = "select * from ideastable where id=:id"; ?>
     <?php
